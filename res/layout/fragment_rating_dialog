@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:minHeight="150dp"
+    android:id="@+id/rating_dialog"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    android:backgroundTintMode="screen"
+    android:backgroundTint="#ff7a7a7a">
+
+
+    <LinearLayout
+        android:id="@+id/ratingInnerFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:id="@+id/ratingButtons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="76dp"
+                android:text="@string/cancelButton"
+                android:id="@+id/cancelButton"
+                android:layout_gravity="top"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="76dp"
+                android:text="@string/rateButton"
+                android:id="@+id/rateButton"
+                android:layout_gravity="top"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

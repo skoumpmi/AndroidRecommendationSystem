@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Show on Map">
+        <SwitchPreference
+            android:title="Recommendation"
+            android:key="recommend_flag"
+            android:defaultValue="true"
+            android:summary="if FALSE nearby places will be shown"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="General"
+        android:summary="General Settings">
+        <EditTextPreference
+            android:title="Max Places to be Shown"
+            android:key="max_places"
+            />
+        <EditTextPreference
+            android:title="Max Recommendations"
+            android:key="recc_count"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Place Preferences" android:summary="Define the type of the Google Places">
+        <MultiSelectListPreference
+            android:title="Place Type"
+            android:key="places_types"
+            android:entries="@array/listEntries"
+            android:entryValues="@array/listEntries"/>
+    </PreferenceCategory>
+</PreferenceScreen>

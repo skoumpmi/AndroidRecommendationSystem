@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SightSeeker</string>
+
+    <string name="title_section1">Map</string>
+    <string name="title_section2">My Places</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Map Fragment-->
+    <string name="ratethismarker">Rate it!</string>
+
+
+    <!-- Rating Fragment -->
+    <string name="cancelButton">Cancel</string>
+    <string name="rateButton">Rate</string>
+    <string name="rateTitle">Test text</string>
+
+
+
+    <string name="action_example">Example action</string>
+    <string name="action_recommends">Recommend</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Login activity -->
+    <string name="login">Login</string>
+    <string name="hint_email">enter your email</string>
+    <string name="hint_password">enter your password</string>
+    <string name="hint_re_password">re-enter your password</string>
+    <string name="error_invalid_password">Invalid email/password</string>
+    <string name="error_field_required">Email can not be empty</string>
+    <string name="error_invalid_email">Invalid email format</string>
+    <string name="register">Register</string>
+    <string name="recommend_switch">Recommend</string>
+
+
+</resources>

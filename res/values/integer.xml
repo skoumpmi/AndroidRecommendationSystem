@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="rec_num">10</integer>
+    <integer name="max_gpl">20</integer>
+</resources>
